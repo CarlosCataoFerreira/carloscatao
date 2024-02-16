@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contplus</title>
+
+</head>
+
+<style>
+:root{
+  --color-white: #fff;
+  --color-dark1: #272727;
+  --color-dark2: #2d2d2d;
+  --color-dark3: #414141;
+  --color-dark4: #1c1c1c;
+  --color-dark5: #343434;
+  --color-purple: #b040ff;
+}
+*{  margin: 0;
+padding: 0;}
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--color-dark1);
+  color: var(--color-white);
+}
+
+.imagem_logo{
+  width: 200px;
+}
+
+.header,
+.Navigation_header{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.header{
+  background-color: var(--color-dark2);
+  box-shadow: 1px 1px 4px var(--color-dark4);
+  height: 76px;
+  justify-content: space-between;
+  padding: 0 10%;
+}
+
+.Navigation_header{
+  gap: 3em;
+}
+
+.Navigation_header a{
+  text-decoration: none;
+  color: var(--color-purple);
+  transition: 1%;
+  font-weight: bold;
+}
+
+
+.whats_logo {
+  width: 200px;
+}
+
+.rodapé,
+.whats_logo
+{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.rodapé{
+  background-color: var(--color-dark2);
+  box-shadow: 1px 1px 4px var(--color-dark4);
+  height: 76px;
+  justify-content: space-between;
+  padding: 0 10%;
+}
+
+</style>
+
+<body>
+ <div class="header" id="header">
+
+<div class="logo_header"><img src="g" class="imagem_logo" alt="Nada"></div>
+
+<div class="Navigation_header">
+    <a href="index.html">Home</a>
+    <a href="Sobre Nós.html">Sobre nós</a>
+    <a href="Elementos.html">Elementos</a>
+    <a href="Redes Sociais.html">Redes Sociais</a>
+</div>
+
+ </div>
+
+--corpo page
+
+ <div class="rodapé" id="rodapé">
+
+  <div class="logo_rodapé"><a href=""><img src="https://static.whatsapp.net/rsrc.php/v3/y7/r/DSxOAUB0raA.png" class="whats_logo" alt="Nada"></a>
+ 
+  </div>
+ </div>
+
+</body>
+
+</html>
